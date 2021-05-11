@@ -2,7 +2,6 @@ class Solution {
 public:
     int countPrimes(int n) {
         //self
-        //check
         if(n<=2) return 0;
         bool prime[n+1];
         memset(prime,true,sizeof(prime));
